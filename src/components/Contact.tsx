@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MapPin, Phone, Mail, Clock, Send, Loader2 } from "lucide-react";
+import { MapPin, Phone, Smartphone, Mail, Clock, Send, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 
@@ -16,10 +16,16 @@ const contactInfo = [
     href: googleMapsUrl,
   },
   {
-    icon: Phone,
-    label: "Telefone",
+    icon: Smartphone,
+    label: "Telemóvel",
     value: "+351 917 197 562",
     href: "tel:917197562",
+  },
+  {
+    icon: Phone,
+    label: "Telefone Fixo",
+    value: "+351 261 050 479",
+    href: "tel:261050479",
   },
   {
     icon: Mail,

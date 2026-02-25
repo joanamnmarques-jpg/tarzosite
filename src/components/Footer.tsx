@@ -1,4 +1,4 @@
-import { Facebook } from "lucide-react";
+import { Facebook, Smartphone, Phone } from "lucide-react";
 import logoTarzo from "@/assets/logo-tarzo.png";
 import PrivacyPolicyDialog from "./PrivacyPolicyDialog";
 import TermsConditionsDialog from "./TermsConditionsDialog";
